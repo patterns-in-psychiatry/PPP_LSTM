@@ -1,0 +1,441 @@
+{
+    "demographics": {
+        "sexe": [
+            "bin"
+        ],
+        "V1_DOV_AGE": [
+            "con"
+        ],
+        "V1_RACE": [
+            "cat"
+        ],
+        "V1_CNTR_RES": [
+            "bin"
+        ],
+        "V1_MARRIED": [
+            "bin"
+        ],
+        "V1_DIVORCED": [
+            "bin"
+        ],
+        "V1_OCCUPATION": [
+            "bin"
+        ],
+        "V1_OCC_TYPE": [
+            "cat"
+        ],
+        "V1_OCC_PREV": [
+            "bin"
+        ],
+        "V1_OCC_PREV_TYPE": [
+            "cat"
+        ],
+        "V1_OCC_FATH": [
+            "cat"
+        ],
+        "V1_OCC_MOTH": [
+            "cat"
+        ],
+        "V1_EDUC_YRS": [
+            "con"
+        ],
+        "V1_EDUC_PAT": [
+            "cat"
+        ],
+        "V1_EDUC_FATH": [
+            "cat"
+        ],
+        "V1_EDUC_MOTH": [
+            "cat"
+        ],
+        "V1_LIVING_ALONE": [
+            "bin"
+        ],
+        "V1_DWELLING": [
+            "cat"
+        ],
+        "V1_INCOME_SRC": [
+            "cat"
+        ],
+        "V1_LIVING_INVIRONMT": [
+            "cat"
+        ]
+    },
+    "diagnosis": {
+        "V1_INC_DSM": [
+            "cat"
+        ],
+        "V1_INC_PSYCH_DUR": [
+            "con"
+        ],
+        "V1_TRSETTING": [
+            "cat"
+        ],
+        "V1_PSYCHINTV": [
+            "bin"
+        ],
+        "V1_PROGNOSIS": [
+            "cat"
+        ],
+        "V2_HOSP": [
+            "bin"
+        ]
+    },
+    "lifestyle": {
+        "V1_RECDRUGS": [
+            "bin"
+        ],
+        "V2_RECDRUGS": [
+            "bin"
+        ],
+        "V2_CAFFEINE_CUPS": [
+            "con"
+        ],
+        "V2_LST_CAFFEINE": [
+            "cat"
+        ],
+        "V2_ALC_12M": [
+            "cat"
+        ],
+        "V2_ALC_NEVER": [
+            "bin"
+        ],
+        "V2_SMOKE": [
+            "cat"
+        ]
+    },
+    "somatic": {
+        "V1_ECG_NORM": [
+            "bin"
+        ],
+        "V1_PE_HEIGHT_CM": [
+            "con"
+        ],
+        "V1_PE_WEIGHT_KG": [
+            "con"
+        ],
+        "V1_PE_WAIST_CM": [
+            "con"
+        ],
+        "V1_PE_HIP_CM": [
+            "con"
+        ],
+        "V1_PE_SBP": [
+            "con"
+        ],
+        "V1_PE_DBP": [
+            "con"
+        ],
+        "V1_PE_PULSE": [
+            "con"
+        ],
+        "V2_LSTMEAL": [
+            "cat"
+        ],
+        "V2_LSTMEAL_TYPE": [
+            "cat"
+        ],
+        "BMI": [
+            "con"
+        ]
+    },
+    "treatments": {
+        "avg_dosage": [
+            "con"
+        ]
+    },
+    "cdss": {
+        "V2_CDSS_1": [
+            "con"
+        ],
+        "V2_CDSS_2": [
+            "con"
+        ],
+        "V2_CDSS_3": [
+            "con"
+        ],
+        "V2_CDSS_4": [
+            "con"
+        ],
+        "V2_CDSS_5": [
+            "con"
+        ],
+        "V2_CDSS_6": [
+            "con"
+        ],
+        "V2_CDSS_7": [
+            "con"
+        ],
+        "V2_CDSS_8": [
+            "con"
+        ],
+        "V2_CDSS_9": [
+            "con"
+        ]
+    },
+    "swn": {
+        "V2_SWN_1": [
+            "con"
+        ],
+        "V2_SWN_2": [
+            "con"
+        ],
+        "V2_SWN_3": [
+            "con"
+        ],
+        "V2_SWN_4": [
+            "con"
+        ],
+        "V2_SWN_5": [
+            "con"
+        ],
+        "V2_SWN_6": [
+            "con"
+        ],
+        "V2_SWN_7": [
+            "con"
+        ],
+        "V2_SWN_8": [
+            "con"
+        ],
+        "V2_SWN_9": [
+            "con"
+        ],
+        "V2_SWN_10": [
+            "con"
+        ],
+        "V2_SWN_11": [
+            "con"
+        ],
+        "V2_SWN_12": [
+            "con"
+        ],
+        "V2_SWN_13": [
+            "con"
+        ],
+        "V2_SWN_14": [
+            "con"
+        ],
+        "V2_SWN_15": [
+            "con"
+        ],
+        "V2_SWN_16": [
+            "con"
+        ],
+        "V2_SWN_17": [
+            "con"
+        ],
+        "V2_SWN_18": [
+            "con"
+        ],
+        "V2_SWN_19": [
+            "con"
+        ],
+        "V2_SWN_20": [
+            "con"
+        ]
+    },
+    "mini": {
+        "V1_MINI_A_DEPR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_A_DEPR_RECURR": [
+            "bin"
+        ],
+        "V1_MINI_A_DPMOOD_GNR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_A_DPMOOD_GNR_PAST": [
+            "bin"
+        ],
+        "V1_MINI_A_DPMOOD_SUBST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_A_DPMOOD_SUBST_PAST": [
+            "bin"
+        ],
+        "V1_MINI_A_MELANCH_CURR": [
+            "bin"
+        ],
+        "V1_MINI_A_MELANCH_RECURR": [
+            "bin"
+        ],
+        "V1_MINI_B_DYST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_B_DYST_PAST": [
+            "bin"
+        ],
+        "V1_MINI_C_CURR": [
+            "bin"
+        ],
+        "V1_MINI_C_RISK": [
+            "cat"
+        ],
+        "V1_MINI_D_MANIC_CURR": [
+            "bin"
+        ],
+        "V1_MINI_D_MANIC_PAST": [
+            "bin"
+        ],
+        "V1_MINI_D_HYPOM_CURR": [
+            "bin"
+        ],
+        "V1_MINI_D_HYPOM_PAST": [
+            "bin"
+        ],
+        "V1_MINI_D_BIPOLII_CURR": [
+            "bin"
+        ],
+        "V1_MINI_D_BIPOLII_PAST": [
+            "bin"
+        ],
+        "V1_MINI_D_MANIC_GNR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_D_MANIC_GNR_PAST": [
+            "bin"
+        ],
+        "V1_MINI_D_MANIC_SUBST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_D_MANIC_SUBST_PAST": [
+            "bin"
+        ],
+        "V1_MINI_E_PANIC_CURR": [
+            "bin"
+        ],
+        "V1_MINI_E_PANIC_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_E_PANIC_GNR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_E_PANIC_SUBST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_F_AGORA_CURR": [
+            "bin"
+        ],
+        "V1_MINI_F_AGORA_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_G_SOC_CURR": [
+            "bin"
+        ],
+        "V1_MINI_H_SPEC_CURR": [
+            "bin"
+        ],
+        "V1_MINI_I_OBSCOMP_CURR": [
+            "bin"
+        ],
+        "V1_MINI_I_OCD_GNR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_I_OCD_SUBST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_J_PTSTRESS_CURR": [
+            "bin"
+        ],
+        "V1_MINI_K_ALCDEP_12M": [
+            "bin"
+        ],
+        "V1_MINI_K_ALCDEP_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_K_ALCABS_12M": [
+            "bin"
+        ],
+        "V1_MINI_K_ALCABS_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_L_SUBSTDEP_12M": [
+            "bin"
+        ],
+        "V1_MINI_L_SUBSTDEP_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_L_SUBSTABS_12M": [
+            "bin"
+        ],
+        "V1_MINI_L_SUBSTABS_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_MOOD_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOPH_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOPH_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOAF_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOAF_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOFRM_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_SCHIZOFRM_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_BRIEF_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_BRIEF_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_DELUS_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_DELUS_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_GNR_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_GNR_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_SUBST_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_PSYCH_SUBST_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_NOS_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_NOS_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_MOOD_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_MOODNOS_LIFE": [
+            "bin"
+        ],
+        "V1_MINI_M_MAJDEP_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_MAJDEP_PAST": [
+            "bin"
+        ],
+        "V1_MINI_M_BIPOLI_CURR": [
+            "bin"
+        ],
+        "V1_MINI_M_BIPOLI_PAST": [
+            "bin"
+        ]
+    }
+}
