@@ -1,0 +1,6 @@
+numpy==1.20.3
+pandas==1.5.1
+scikit-learn==1.1.2
+scikit-fuzzy==0.4.2
+keras==2.7.0
+tensorflow==2.7.0
