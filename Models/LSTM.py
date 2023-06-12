@@ -19,9 +19,6 @@ from tensorflow.keras.optimizers import Adam
 from keras.callbacks import EarlyStopping
 import keras
 import tensorflow as tf
-from Models.customLayers import nanDense, nanLSTM, nanLSTMCell
-#from sklearn.utils import class_weight
-from Models.TLSTM import TLSTM, TLSTMCell
 from sklearn.isotonic import IsotonicRegression
 from sklearn.metrics import brier_score_loss, log_loss
 from Utilities.evaluation import calibration_error
@@ -108,7 +105,7 @@ class PPP_Network:
                  lstm_neurons=10, fc_dynamic_neurons=10, fc_static_neurons=10, 
                  fc_classification_neurons=5, dropout_prob=0.0, l2_w=0.0, 
                  use_c=False, use_tlstm=False, with_nan=False, fusion='concat',
-                 with_residual=False, tlstm_decay_function='original'):
+                 with_residual=True, tlstm_decay_function='original'):
         
         self.dynamic_input_modalities = list(X_dynamic[0].keys())
         self.dropout_prob = dropout_prob
@@ -577,9 +574,7 @@ class PPP_Network:
         config = self.model.get_config()
         
         # At loading time, register the custom objects with a `custom_object_scope`:
-        custom_objects = {"nanDense": nanDense, 'multiclass_auc':multiclass_auc,
-                          "nanLSTM": nanLSTM, "TLSTM":TLSTM, "nanLSTMCell":nanLSTMCell,
-                          "TLSTMCell":TLSTMCell}
+        custom_objects = {'multiclass_auc':multiclass_auc}
         with keras.utils.generic_utils.custom_object_scope(custom_objects):
             self.model = keras.Model.from_config(config)
                 
