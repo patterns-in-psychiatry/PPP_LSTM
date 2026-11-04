@@ -1,0 +1,19 @@
+# Resolved on Python 3.12 / Linux; includes development and build tools.
+# Install this file before installing the local package with --no-deps.
+cloudpickle==3.1.2
+iniconfig==2.3.1
+joblib==1.6.0
+numpy==2.3.5
+packaging==26.3
+pandas==2.2.3
+pluggy==1.7.0
+pytest==8.3.5
+python-dateutil==4.0.0
+pytz==2026.6
+ruff==0.11.13
+scikit-learn==1.8.0
+scipy==1.18.1
+setuptools==80.9.0
+threadpoolctl==3.7.0
+tzdata==2026.6
+wheel==0.45.1
